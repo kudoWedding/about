@@ -7,6 +7,7 @@ gem 'unicorn', '~> 4.8.3'
 gem 'middleman', '~>3.3.6'
 gem 'middleman-smusher', '~> 3.0.0'
 gem 'middleman-livereload', '~> 3.3.4' # LiveReload plugin
+gem "middleman-deploy"
 
 # Precompilers
 gem 'slim', '~> 2.0.3'

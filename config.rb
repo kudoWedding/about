@@ -86,4 +86,12 @@ configure :build do
   # Compress PNGs after build (First: gem install middleman-smusher)
   # require "middleman-smusher"
   # activate :smusher
+
+  activate :asset_host, host: "/pages/msb/kudo"
+end
+
+activate :deploy do |deploy|
+  deploy.build_before = true
+  deploy.method = :git
+  deploy.branch = 'gh-pages'
 end
