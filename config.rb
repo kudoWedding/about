@@ -87,11 +87,12 @@ configure :build do
   # require "middleman-smusher"
   # activate :smusher
 
-  activate :asset_host, host: "/pages/msb/kudo"
+  activate :asset_host, host: "/about"
 end
 
 activate :deploy do |deploy|
   deploy.build_before = true
   deploy.method = :git
   deploy.branch = 'gh-pages'
+  deploy.remote = "git@github.com:kudoWedding/about.git"
 end
