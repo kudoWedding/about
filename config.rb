@@ -15,7 +15,7 @@
 
 # i18n
 # ----------------------------------------------
-activate :i18n, :mount_at_root => :'pt-BR'
+activate :i18n, :mount_at_root => :'ja'
 
 
 # Livereload

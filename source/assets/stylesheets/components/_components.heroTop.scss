@@ -4,25 +4,38 @@
 //
 // **************************************
 
-section.hello {
+section.hello, section.heart {
+  .hero {
+    padding-bottom: 0;
+    background: url(../images/white_church.jpg);
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+  }
+  .hero-inner {
+    color: $base-font-color;
+    .logo {
+      font-size: 2em;
+    }
+    p {
+      font-size: .6em;
+    }
+  }
+}
+
+section.heart {
   .hero {
     $hero-background: desaturate(darken($base-accent-color, 20), 30);
-    background: url(../images/white_church.jpg);
+
+    padding-bottom: 0;
+    background: url(../images/heart.jpg);
     background-color: $hero-background;
     background-repeat: no-repeat;
     background-position: top;
     background-size: cover;
   }
-
   .hero-inner {
-    color: $base-font-color;
-
-    .logo {
-      font-size: 2em;
-    }
-
-    p {
-      font-size: 0.6em;
-    }
+    color: #D36C5F;
+    padding-top: 12em;
   }
 }
