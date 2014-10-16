@@ -6,7 +6,6 @@
 # ----------------------------------------------
 @google_analytics = ''
 
-
 # Slim HTML
 # ----------------------------------------------
 ::Slim::Engine.set_default_options :format  => :html5

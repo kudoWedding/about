@@ -1,5 +1,5 @@
 meta charset='utf-8'
-title = page_title
+title 新郎新婦紹介
 
 = stylesheet_link_tag 'application.css', media: 'all'
 / Prefetch DNS for external assets (Twitter widgets etc).
@@ -15,13 +15,8 @@ meta content='320' name='MobileOptimized'
 
 meta name='description' content="#{page_description}"
 meta name='keywords' content="#{page_keywords}"
-meta name='author' content="#{page_author}"
+meta name='author' content="cookpad inc."
 
-/ -------------------------------------
-/ Modernizr - Development version
-/ Use the Development version to develop with and learn from. Then, when you’re
-/ ready for production, use the build tool below to pick only the tests you need.
-/ -------------------------------------
 = javascript_include_tag '//cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.2/modernizr.js'
 /[if lt IE 9]
   = javascript_include_tag '//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7/html5shiv.min.js'
