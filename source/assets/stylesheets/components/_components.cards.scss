@@ -19,10 +19,36 @@
       background-color: $bride-accent-color;
     }
   }
-
   .card-stats {
     ul li {
       color: $bride-accent-color;
+    }
+  }
+}
+
+.card.pr {
+  $pr-accent-color: rgb(64, 144, 27);
+  $pr-background-color: rgb(247, 243, 232);
+
+  border: 2px solid rgb(250, 152, 62);
+  background-color: $pr-background-color;
+  .logo-banner {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    padding-top: $base-line-height/3;
+
+    img {
+      background-color: $pr-background-color;
+      width: auto;
+      height: auto;
+      max-height: $base-line-height;
+    }
+  }
+  .card-stats {
+    ul li {
+      color: $pr-accent-color;
     }
   }
 }
